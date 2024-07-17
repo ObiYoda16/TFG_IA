@@ -21,17 +21,6 @@ for i in range(len(metricas)):
     print(metricas[i])
 
 
-"""
-0.677257525083612
-              precision    recall  f1-score   support
-
-         0.0       0.68      0.42      0.52       248
-         1.0       0.68      0.86      0.76       350
-
-    accuracy                           0.68       598
-   macro avg       0.68      0.64      0.64       598
-weighted avg       0.68      0.68      0.66       598
-"""
 svc = svm.SVC()
 
 # Definir la cuadrícula de hiperparámetros
